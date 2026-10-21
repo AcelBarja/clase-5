@@ -367,3 +367,52 @@ header img {
     border: solid 1px red;
     height: 250px;
 }
+.card-oferta {
+    position: relative;
+    border-radius: 12px;
+    max-height: 320px;
+    background-color: #1D1D1D;
+}
+.card-oferta .card-oferta-img {
+    height: 320px;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.45);
+}
+.card-oferta .card-oferta-overlay {
+    background: linear-gradient(90deg, rgba(29, 29, 29, 0.9) 0%, rgba(200, 0, 13, 0.4) 100%);
+    padding: 30px;
+}
+.card-oferta .card-title {
+    font-family: "Bebas Neue", sans-serif;
+    color: #FDF3BF;
+    letter-spacing: 1px;
+}
+.card-oferta .card-text {
+    font-family: "Lora", sans-serif;
+    color: #F2F2F2;
+    margin-bottom: 15px;
+}
+.card-oferta .badge {
+    font-family: "Lora", sans-serif;
+    background-color: #C8000D !important;
+    color: #FFFFFF;
+}
+.card-oferta .btn-danger {
+    background-color: #C8000D;
+    border: none;
+    font-family: "Lora", sans-serif;
+    font-weight: bold;
+    padding: 10px 24px;
+    transition: background-color 0.25s ease, transform 0.15s ease;
+}
+.card-oferta .btn-danger:hover {
+    background-color: #a0000a;
+    transform: translateY(-2px);
+}
+.card-oferta .btn-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 10;
+}
